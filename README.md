@@ -1,7 +1,6 @@
 # Search Algorithms Applied to PHWAR
-Cedric Oeldorf
-Student Number: i6167918
-Department of Data Science and Knowledge Engineering, Maastricht University
+- Cedric Oeldorf
+- Department of Data Science and Knowledge Engineering, Maastricht University
 
 
 
