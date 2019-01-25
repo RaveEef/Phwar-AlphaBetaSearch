@@ -11,15 +11,15 @@ Department of Data Science and Knowledge Engineering, Maastricht University
 
 1. Phwar	3
 2. Methodology	4
-  2.1 Prerequisites	4
-  2.2 Gameplay	4
-  2.3 Data Structure	6
-  2.4 Game Mechanics	7
-    2.4.1 Movement Functions	7
-    2.4.2 Capturing Functions	7
-  2.5 Search Algorithm	8
-    2.5.1 Alpha-Beta Pruning	8
-    2.5.2 Evaluation	9
+  1. Prerequisites	4
+  2. Gameplay	4
+  3. Data Structure	6
+  4. Game Mechanics	7
+    1. Movement Functions	7
+    2. Capturing Functions	7
+  5. Search Algorithm	8
+    1. Alpha-Beta Pruning	8
+    2. Evaluation	9
 3. Test results	10
 4. Conclusion	11
 
