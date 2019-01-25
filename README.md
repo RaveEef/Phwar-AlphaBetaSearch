@@ -15,11 +15,11 @@ Department of Data Science and Knowledge Engineering, Maastricht University
   2. Gameplay
   3. Data Structure
   4. Game Mechanics
-    1. Movement Functions
-    2. Capturing Functions
+   Movement Functions
+   Capturing Functions
   5. Search Algorithm
-    1. Alpha-Beta Pruning
-    2. Evaluation
+   Alpha-Beta Pruning
+   Evaluation
 3. Test results
 4. Conclusion
 
