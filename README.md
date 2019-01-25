@@ -27,7 +27,7 @@ Department of Data Science and Knowledge Engineering, Maastricht University
 
 Phwar, which is the shortened term for Phase War, is a board game based on a hexagonal layout consisting of individual hexagons.
 
-![alt text][1.png]
+![alt text][./1.png]
 
 The aim of the game is to either ‘capture’ all electrons, positrons or neutrons of the enemy player, or to move one's own neutron to the middle of the board. The set of rules implemented for this algorithm are as follows:
 
@@ -64,28 +64,28 @@ In order to run the game, please navigate to the directory holding the two scrip
 By default, the AI plays white and the player, who is black, takes the first turn. Changing line 3 in phwar.py to ’white’ will have the AI play black.
 Running phwar.py will print the following in the terminal:
 
-![alt text][2.png]
+![alt text][./2.png]
 
 A list of board coordinates representing the current positions of the players pieces is depicted. Please select a piece by typing the coordinate into the command line as it appears in the list.  After this selection, a second list appears, depicting all coordinates that result in valid moves for the selected piece. In this example we will move from ‘F3’ to ‘F5’.
 
-![alt text][3.png]
+![alt text][./3.png]
 
 The terminal will print ‘nothing to capture’ and ask if there were any issues. The issues question was implemented as a way to let the player manipulate the board in order to do a sequential capture. To continue through the issues line, enter ‘n’. If there was an issue and you would like to update a position on the board, enter ‘y’.
 In the event of a capture, you will be prompted to select a piece to capture as depicted below. In this case, please select a cell from the list printed above the input query.
 
-![alt text][4.png]
+![alt text][./4.png]
 
 Now a board will appear represented in the format of fig. 2 and the ai will start calculating its move.
 Once it is done, the plot will close and a new one with an updated board will appear. The terminal will now revert back to giving the player the chance to select his/her next move.
 Please note, in order to start a new game, fully exit IPython and re-enter it. Else old board positions might carry over into the new game.
 
-![alt text][5.png]
+![alt text][./5.png]
 
 2.3 Data Structure
 
 The data structure is a list of lists created in lines 12 - 26 of game_functions.py.
 
-![alt text][6.png]
+![alt text][./6.png]
 
 The list named ‘grid’ in line 26 is the list that holds the whole board. It is comprised of an empty value and 11 sub-lists. The empty value serves to make indexing more intuitive by letting the content start at index 1 as opposed to 0.
 Each of these sub-lists represents one ‘column’ of the hexagon, here labelled from A to K. A sub-list holds the state of every cell in its respective column. A cell’s state is also stored in a list, for which the entries represent the values  [x,y,z,charge,player,neutron]
